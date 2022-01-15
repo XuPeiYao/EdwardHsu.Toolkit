@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Toolkit.IO", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Toolkit", "src\EdwardHsu.Toolki.Extensions\EdwardHsu.Toolkit.csproj", "{DD644F4A-4497-4B02-8DA2-C9CBE9526873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Toolkit.Tests", "EdwardHsu.Toolkit.Tests\EdwardHsu.Toolkit.Tests.csproj", "{BD837404-7BF9-48DC-B216-B4B641F8CCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DD644F4A-4497-4B02-8DA2-C9CBE9526873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD644F4A-4497-4B02-8DA2-C9CBE9526873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD644F4A-4497-4B02-8DA2-C9CBE9526873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD837404-7BF9-48DC-B216-B4B641F8CCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD837404-7BF9-48DC-B216-B4B641F8CCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD837404-7BF9-48DC-B216-B4B641F8CCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD837404-7BF9-48DC-B216-B4B641F8CCD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
