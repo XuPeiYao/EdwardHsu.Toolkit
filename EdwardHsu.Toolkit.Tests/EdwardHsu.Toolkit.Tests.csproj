@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\EdwardHsu.Toolki.Extensions\EdwardHsu.Toolkit.csproj" />
+    <ProjectReference Include="..\src\EdwardHsu.Toolkit\EdwardHsu.Toolkit.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ namespace EdwardHsu.Toolkit.IO
 {
     public class TempFileStream : Stream, ITempFileStream
     {
-        public const int DEFAULT_BUFFER_SIZE = 4 * 1024;
+        public const int DEFAULT_BUFFER_SIZE = 4 * ByteSize.KiB;
         private string _tempFilePath = string.Empty;
         private FileStream _tempFileStream;
         
@@ -16,7 +16,7 @@ namespace EdwardHsu.Toolkit.IO
 
         public TempFileStream()
         {
-            _tempFilePath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
+            _tempFilePath = PathHelper.GetTempFileName();
             Status        = TempFileStreamStatus.Close;
         }
 

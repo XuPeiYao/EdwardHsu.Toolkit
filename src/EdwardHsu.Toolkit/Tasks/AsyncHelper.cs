@@ -2,14 +2,14 @@
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace EdwardHsu.Toolkit
+namespace EdwardHsu.Toolkit.Tasks
 {
     public static class AsyncHelper
     {
         public static Task ToTask(Expression<Action> expFunc)
         {
             TaskCompletionSource<object> tcs = new TaskCompletionSource<object>();
-
+            
             Task.Run(
                 () =>
                 {
